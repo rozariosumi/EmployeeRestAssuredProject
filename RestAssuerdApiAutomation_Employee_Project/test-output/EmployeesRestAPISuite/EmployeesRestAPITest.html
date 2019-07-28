@@ -1,0 +1,254 @@
+<html>
+<head>
+<title>TestNG:  EmployeesRestAPITest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EmployeesRestAPITest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>35/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 25 18:33:19 CDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60537 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.employeeproject.testcases.TC004_Update_Employee_record.validateResponseBody()'><b>validateResponseBody</b><br>Test class: com.employeeproject.testcases.TC004_Update_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC004_Update_Employee_record@4883b407</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC005_Delete_Employee_record.validateResponseBody()'><b>validateResponseBody</b><br>Test class: com.employeeproject.testcases.TC005_Delete_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyContentLength()'><b>verifyContentLength</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyContentLength()'><b>verifyContentLength</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC003_Create_NewEmployee_record.verifyContentLength()'><b>verifyContentLength</b><br>Test class: com.employeeproject.testcases.TC003_Create_NewEmployee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC004_Update_Employee_record.verifyContentLength()'><b>verifyContentLength</b><br>Test class: com.employeeproject.testcases.TC004_Update_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC004_Update_Employee_record@4883b407</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC005_Delete_Employee_record.verifyContentLength()'><b>verifyContentLength</b><br>Test class: com.employeeproject.testcases.TC005_Delete_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyContentType()'><b>verifyContentType</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyContentType()'><b>verifyContentType</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC003_Create_NewEmployee_record.verifyContentType()'><b>verifyContentType</b><br>Test class: com.employeeproject.testcases.TC003_Create_NewEmployee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC004_Update_Employee_record.verifyContentType()'><b>verifyContentType</b><br>Test class: com.employeeproject.testcases.TC004_Update_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC004_Update_Employee_record@4883b407</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC005_Delete_Employee_record.verifyContentType()'><b>verifyContentType</b><br>Test class: com.employeeproject.testcases.TC005_Delete_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyCookies()'><b>verifyCookies</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyResponse()'><b>verifyResponse</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>4</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC003_Create_NewEmployee_record.verifyResponseBody()'><b>verifyResponseBody</b><br>Test class: com.employeeproject.testcases.TC003_Create_NewEmployee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyResponseTime()'><b>verifyResponseTime</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyResponseTime()'><b>verifyResponseTime</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyResponsebody()'><b>verifyResponsebody</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyServerType()'><b>verifyServerType</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyServerType()'><b>verifyServerType</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC003_Create_NewEmployee_record.verifyServerType()'><b>verifyServerType</b><br>Test class: com.employeeproject.testcases.TC003_Create_NewEmployee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC004_Update_Employee_record.verifyServerType()'><b>verifyServerType</b><br>Test class: com.employeeproject.testcases.TC004_Update_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC004_Update_Employee_record@4883b407</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC005_Delete_Employee_record.verifyServerType()'><b>verifyServerType</b><br>Test class: com.employeeproject.testcases.TC005_Delete_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyStatusCode()'><b>verifyStatusCode</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyStatusCode()'><b>verifyStatusCode</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC003_Create_NewEmployee_record.verifyStatusCode()'><b>verifyStatusCode</b><br>Test class: com.employeeproject.testcases.TC003_Create_NewEmployee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC004_Update_Employee_record.verifyStatusCode()'><b>verifyStatusCode</b><br>Test class: com.employeeproject.testcases.TC004_Update_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC004_Update_Employee_record@4883b407</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC005_Delete_Employee_record.verifyStatusCode()'><b>verifyStatusCode</b><br>Test class: com.employeeproject.testcases.TC005_Delete_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyStatusLine()'><b>verifyStatusLine</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyStatusLine()'><b>verifyStatusLine</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC003_Create_NewEmployee_record.verifyStatusLine()'><b>verifyStatusLine</b><br>Test class: com.employeeproject.testcases.TC003_Create_NewEmployee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC004_Update_Employee_record.verifyStatusLine()'><b>verifyStatusLine</b><br>Test class: com.employeeproject.testcases.TC004_Update_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC004_Update_Employee_record@4883b407</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC005_Delete_Employee_record.verifyStatusLine()'><b>verifyStatusLine</b><br>Test class: com.employeeproject.testcases.TC005_Delete_Employee_record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC001_Get_All_Employee_Data.verifyTransferEncoding()'><b>verifyTransferEncoding</b><br>Test class: com.employeeproject.testcases.TC001_Get_All_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02</td></tr>
+<tr>
+<td title='com.employeeproject.testcases.TC002_Single_Employee_Data.verifyTransferEncoding()'><b>verifyTransferEncoding</b><br>Test class: com.employeeproject.testcases.TC002_Single_Employee_Data</td>
+<td></td>
+<td>0</td>
+<td>com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95</td></tr>
+</table><p>
+</body>
+</html>

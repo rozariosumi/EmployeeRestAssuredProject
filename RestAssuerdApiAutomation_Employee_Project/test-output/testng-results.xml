@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="35" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmployeesRestAPISuite" duration-ms="60537" started-at="2019-07-25T23:33:19Z" finished-at="2019-07-25T23:34:20Z">
+    <groups>
+    </groups>
+    <test name="EmployeesRestAPITest" duration-ms="60537" started-at="2019-07-25T23:33:19Z" finished-at="2019-07-25T23:34:20Z">
+      <class name="com.employeeproject.testcases.TC001_Get_All_Employee_Data">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="setUP" is-config="true" duration-ms="149" started-at="2019-07-25T23:33:20Z" finished-at="2019-07-25T23:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="getAllEmployees" is-config="true" duration-ms="22551" started-at="2019-07-25T23:33:20Z" finished-at="2019-07-25T23:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="verifyContentLength()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyContentLength" duration-ms="49" started-at="2019-07-25T23:33:43Z" finished-at="2019-07-25T23:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentLength -->
+        <test-method status="PASS" signature="verifyContentType()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyContentType" duration-ms="34" started-at="2019-07-25T23:33:44Z" finished-at="2019-07-25T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+        <test-method status="PASS" signature="verifyCookies()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyCookies" duration-ms="8" started-at="2019-07-25T23:33:44Z" finished-at="2019-07-25T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookies -->
+        <test-method status="PASS" signature="verifyResponse()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyResponse" duration-ms="4302" started-at="2019-07-25T23:33:44Z" finished-at="2019-07-25T23:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponse -->
+        <test-method status="PASS" signature="verifyResponseTime()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyResponseTime" duration-ms="12" started-at="2019-07-25T23:33:48Z" finished-at="2019-07-25T23:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseTime -->
+        <test-method status="PASS" signature="verifyServerType()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyServerType" duration-ms="8" started-at="2019-07-25T23:33:48Z" finished-at="2019-07-25T23:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServerType -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyStatusCode" duration-ms="14" started-at="2019-07-25T23:33:48Z" finished-at="2019-07-25T23:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyStatusLine" duration-ms="7" started-at="2019-07-25T23:33:48Z" finished-at="2019-07-25T23:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="verifyTransferEncoding()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="verifyTransferEncoding" duration-ms="57" started-at="2019-07-25T23:33:48Z" finished-at="2019-07-25T23:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransferEncoding -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.employeeproject.testcases.TC001_Get_All_Employee_Data@6d4b1c02]" name="teardown" is-config="true" duration-ms="2" started-at="2019-07-25T23:33:48Z" finished-at="2019-07-25T23:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.employeeproject.testcases.TC001_Get_All_Employee_Data -->
+      <class name="com.employeeproject.testcases.TC002_Single_Employee_Data">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="setUP" is-config="true" duration-ms="119" started-at="2019-07-25T23:33:48Z" finished-at="2019-07-25T23:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getSingleEmployee()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="getSingleEmployee" is-config="true" duration-ms="10563" started-at="2019-07-25T23:33:49Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleEmployee -->
+        <test-method status="PASS" signature="verifyContentLength()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyContentLength" duration-ms="12" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentLength -->
+        <test-method status="PASS" signature="verifyContentType()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyContentType" duration-ms="6" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+        <test-method status="PASS" signature="verifyResponseTime()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyResponseTime" duration-ms="11" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseTime -->
+        <test-method status="PASS" signature="verifyResponsebody()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyResponsebody" duration-ms="9" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsebody -->
+        <test-method status="PASS" signature="verifyServerType()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyServerType" duration-ms="9" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServerType -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyStatusCode" duration-ms="112" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyStatusLine" duration-ms="12" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="verifyTransferEncoding()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="verifyTransferEncoding" duration-ms="89" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransferEncoding -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.employeeproject.testcases.TC002_Single_Employee_Data@6093dd95]" name="teardown" is-config="true" duration-ms="6" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.employeeproject.testcases.TC002_Single_Employee_Data -->
+      <class name="com.employeeproject.testcases.TC004_Update_Employee_record">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="setUP" is-config="true" duration-ms="10" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="updateEmployeeRecord()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="updateEmployeeRecord" is-config="true" duration-ms="10467" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeRecord -->
+        <test-method status="PASS" signature="validateResponseBody()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="validateResponseBody" duration-ms="8" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseBody -->
+        <test-method status="PASS" signature="verifyContentLength()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="verifyContentLength" duration-ms="9" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentLength -->
+        <test-method status="PASS" signature="verifyContentType()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="verifyContentType" duration-ms="8" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+        <test-method status="PASS" signature="verifyServerType()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="verifyServerType" duration-ms="33" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServerType -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="verifyStatusCode" duration-ms="6" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="verifyStatusLine" duration-ms="8" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.employeeproject.testcases.TC004_Update_Employee_record@4883b407]" name="teardown" is-config="true" duration-ms="2" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.employeeproject.testcases.TC004_Update_Employee_record -->
+      <class name="com.employeeproject.testcases.TC003_Create_NewEmployee_record">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="setUP" is-config="true" duration-ms="9" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="createNewEmployee()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="createNewEmployee" is-config="true" duration-ms="3892" started-at="2019-07-25T23:33:59Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEmployee -->
+        <test-method status="PASS" signature="verifyContentLength()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="verifyContentLength" duration-ms="2" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentLength -->
+        <test-method status="PASS" signature="verifyContentType()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="verifyContentType" duration-ms="3" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+        <test-method status="PASS" signature="verifyResponseBody()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="verifyResponseBody" duration-ms="3" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBody -->
+        <test-method status="PASS" signature="verifyServerType()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="verifyServerType" duration-ms="2" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServerType -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="verifyStatusCode" duration-ms="3" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="verifyStatusLine" duration-ms="3" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.employeeproject.testcases.TC003_Create_NewEmployee_record@5622fdf]" name="teardown" is-config="true" duration-ms="0" started-at="2019-07-25T23:34:03Z" finished-at="2019-07-25T23:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.employeeproject.testcases.TC003_Create_NewEmployee_record -->
+      <class name="com.employeeproject.testcases.TC005_Delete_Employee_record">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="setUP" is-config="true" duration-ms="120" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="deleteteEmployeeRecord()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="deleteteEmployeeRecord" is-config="true" duration-ms="5768" started-at="2019-07-25T23:34:14Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteteEmployeeRecord -->
+        <test-method status="PASS" signature="validateResponseBody()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="validateResponseBody" duration-ms="27" started-at="2019-07-25T23:34:20Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseBody -->
+        <test-method status="PASS" signature="verifyContentLength()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="verifyContentLength" duration-ms="3" started-at="2019-07-25T23:34:20Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentLength -->
+        <test-method status="PASS" signature="verifyContentType()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="verifyContentType" duration-ms="5" started-at="2019-07-25T23:34:20Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+        <test-method status="PASS" signature="verifyServerType()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="verifyServerType" duration-ms="3" started-at="2019-07-25T23:34:20Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServerType -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="verifyStatusCode" duration-ms="6" started-at="2019-07-25T23:34:20Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="verifyStatusLine" duration-ms="6" started-at="2019-07-25T23:34:20Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.employeeproject.testcases.TC005_Delete_Employee_record@7d9d1a19]" name="teardown" is-config="true" duration-ms="2" started-at="2019-07-25T23:34:20Z" finished-at="2019-07-25T23:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.employeeproject.testcases.TC005_Delete_Employee_record -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- EmployeesRestAPISuite -->
+</testng-results>

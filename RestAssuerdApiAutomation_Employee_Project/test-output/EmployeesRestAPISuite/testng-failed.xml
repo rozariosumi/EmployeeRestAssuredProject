@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EmployeesRestAPISuite]">
+  <listeners>
+    <listener class-name="com.employeeproject.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="EmployeesRestAPITest(failed)">
+    <classes>
+      <class name="com.employeeproject.testcases.TC003_Create_NewEmployee_record">
+        <methods>
+          <include name="createNewEmployee"/>
+          <include name="verifyResponseBody"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.employeeproject.testcases.TC003_Create_NewEmployee_record -->
+      <class name="com.employeeproject.testcases.TC004_Update_Employee_record">
+        <methods>
+          <include name="validateResponseBody"/>
+          <include name="updateEmployeeRecord"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.employeeproject.testcases.TC004_Update_Employee_record -->
+      <class name="com.employeeproject.testcases.TC005_Delete_Employee_record">
+        <methods>
+          <include name="deleteteEmployeeRecord"/>
+          <include name="validateResponseBody"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.employeeproject.testcases.TC005_Delete_Employee_record -->
+    </classes>
+  </test> <!-- EmployeesRestAPITest(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->
